@@ -6,3 +6,7 @@
 - A webpage was designed using Figma and made with Flask to provide a easy to use inteface.
 
 ## Images
+![Image 1](./Images/image1.png)
+
+
+![Image 2](./Images/image2.png)
