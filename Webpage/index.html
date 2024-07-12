@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf8">
+    <title>Document Classifier</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="./resources/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="body">
+    <div class="header">
+        <a href="./index.html" id="HomeBtn" class="buttontransp w-button">Home</a>
+        <a href="./about.html" id="AboutBtn" class="button w-button">About</a>
+    </div>
+    <div id="section-a" class="section-a">
+        <div class="headingtext">All your documents, organized perfectly</div>
+        <div class="subheadtext">A machine learning based document classifier that does all the hard work for you, so
+            you can kick back and relax</div>
+        <button id="GetStartedBtn" class="buttonlarge w-button" onclick="scrollDown('section-b')">Get started</button>
+    </div>
+    <div id="section-b" class="section-b">
+        <div class="grey-box">
+            <div class="headingtext2">Just upload your files, and we'll do the rest</div>
+            <img id="changeIcon" src="./resources/CloudIcon.svg" loading="lazy" width="92" height="78" alt=""
+                class="infoicon">
+            <div id="changeText" class="infotext"></div>
+            <button id="FixDocBtn" class="yellowbutton w-button" onclick="sendFolder()">Fix my documents
+                -&gt;</button>
+        </div>
+        <img src="./resources/DesignL.svg" loading="lazy" width="547" height="581" alt="" class="vectorl">
+        <img src="./resources/DesignR.svg" loading="lazy" width="226" height="543" alt="" class="vectorr">
+    </div>
+    <div class="footer">
+        <img src="./resources/FooterLine.svg" loading="lazy" width="1340" height="24" alt="" class="footerline">
+        <div class="footerdiv">
+            <div class="builttext1">Designed and built using</div>
+            <div class="builttext2">Figma + Webflow</div>
+        </div>
+    </div>
+    <script src="./resources/jszip.js"></script>
+    <script src="./resources/script.js"></script>
+</body>
+
+</html>
